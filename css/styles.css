@@ -77,12 +77,6 @@ hr {
   top: 1rem;
 }
 
-.mountain {
-  position: relative;
-  margin-top: 4rem;
-  bottom: -4px;
-}
-
 .middle-container {
   margin: 100px 0;
   background-color: #658864;
@@ -186,23 +180,3 @@ hr {
     font-weight: bold;
     padding: 1.3rem 1.5rem 1rem;
   }
-
-/*
-@media screen and (min-width: 480px){
-  .intro {
-    font-size: 250%;
-  }
-  h2{
-    font-size: 300%;
-  }
-  h3{
-    font-size: 250%;
-  }
-  .skill{
-    font-size: 250%;
-  }
-  .contact-message{
-    font-size: 200%;
-  }
-}
-*/
