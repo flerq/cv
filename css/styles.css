@@ -1,21 +1,15 @@
-/*
-font-family: 'Josefin Slab', serif; <p>
-font-family: 'Merriweather', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Sacramento', cursive; <h1>
-*/
 body {
   margin: 0;
   text-align: center;
   color: black;
   font-size: 100%;
   background-color: #658864;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
   font-family: 'Sacramento', serif;
   font-size: 700%;
-  /*font-size: 562.5%;       /* 100% = 16px; 90px = { (90/16) * 100 }% ; */
   font-weight: normal;
   margin-top: 1rem;
   margin-bottom: 0;
@@ -46,6 +40,8 @@ p {
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
   line-height: 2;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 hr {
@@ -82,16 +78,14 @@ hr {
   background-color: #658864;
 }
 
-
 .intro {
   width: 50%;
   margin: auto;
 }
 
-
-.skill-row {
-  width: 50%;
-  margin: 6.25rem auto 6.25rem auto;
+.skills {
+  width: 100%;
+  margin: 2px;
   text-align: center;
 }
 
@@ -130,53 +124,46 @@ hr {
   opacity: 0.8;
 }
 
+.name-container {
+  margin-top: 40%;
+  margin-bottom: 1px;
+  line-height: 5.8rem;
+}
 
-  p{
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
+.name {
+  font-size: 1000%;
+}
 
-  .name-container{
-    margin-top: 40%;
-    margin-bottom: 1px;
-    line-height: 5.8rem;
-  }
+.name-description {
+  font-size: 300%;
+}
 
-  .name{
-    font-size: 1000%;
-  }
-  .name-description{
-    font-size: 300%;
-  }
+.top-container {
+  margin-top: 1vh;
+  height: 1100px;
+}
 
-  .top-container {
-    margin-top: 1vh;
-    height: 1100px;
-  }
+.profile-img {
+  width: 50%;
+}
 
+.intro {
+  width: 100%;
+}
 
-  .profile-img {
-    width: 50%;
-  }
+.skill-row {
+  width: 100%;
+  margin: 2.25rem auto 4.25rem auto;
+  text-align: center;
+}
 
-  .intro {
-    width: 100%;
-  }
+.contact-message {
+  width: 100%;
+  margin-top: 2.5rem;
+}
 
-
-  .skill-row {
-    width: 100%;
-    margin: 6.25rem auto 6.25rem auto;
-    text-align: center;
-  }
-
-  .contact-message {
-    width: 100%;
-    margin-top: 2.5rem;
-  }
-
-  .btn-message {
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 1.3rem 1.5rem 1rem;
-  }
+.btn-message {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1.3rem 1.5rem 1rem;
+}
