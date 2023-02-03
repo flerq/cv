@@ -67,10 +67,13 @@ hr {
 }
 
 .top-cloud {
-  position: absolute;
+  position: relative;
   right: 24rem;
   /* margin-right: 300px; */
-  top: 1rem;
+  top: 0;
+  bottom: 12rem;
+  left: 6rem;
+  margin-bottom: 4px;
 }
 
 .middle-container {
@@ -125,13 +128,14 @@ hr {
 }
 
 .name-container {
-  margin-top: 40%;
+  margin-top: 5px;
   margin-bottom: 1px;
   line-height: 5.8rem;
 }
 
 .name {
   font-size: 1000%;
+  margin-top: 100px;
 }
 
 .name-description {
